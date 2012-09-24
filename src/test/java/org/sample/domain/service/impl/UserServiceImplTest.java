@@ -61,10 +61,6 @@ public class UserServiceImplTest {
         User result1 = userService.findByUid(user1.getUid());
         assertNotNull(result1.getRoleRepository());
         print(result1);
-
-        User result2 = userService.findByUid(user2.getUid());
-        assertNotNull(result1.getRoleRepository());
-        print(result2);
     }
 
     @Test
